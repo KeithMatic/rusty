@@ -1,0 +1,341 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'hello_world'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=hello_world",
+          "--package=hello_world"
+        ],
+        "filter": {
+          "name": "hello_world",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'hello_world'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=hello_world",
+          "--package=hello_world"
+        ],
+        "filter": {
+          "name": "hello_world",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'guessing_game'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=guessing_game",
+          "--package=guessing_game"
+        ],
+        "filter": {
+          "name": "guessing_game",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'guessing_game'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=guessing_game",
+          "--package=guessing_game"
+        ],
+        "filter": {
+          "name": "guessing_game",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'variables'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=variables",
+          "--package=variables"
+        ],
+        "filter": {
+          "name": "variables",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'variables'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=variables",
+          "--package=variables"
+        ],
+        "filter": {
+          "name": "variables",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'functions'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=functions",
+          "--package=functions"
+        ],
+        "filter": {
+          "name": "functions",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'functions'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=functions",
+          "--package=functions"
+        ],
+        "filter": {
+          "name": "functions",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'branches'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=branches",
+          "--package=branches"
+        ],
+        "filter": {
+          "name": "branches",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'branches'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=branches",
+          "--package=branches"
+        ],
+        "filter": {
+          "name": "branches",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'loops'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=loops",
+          "--package=loops"
+        ],
+        "filter": {
+          "name": "loops",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'loops'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=loops",
+          "--package=loops"
+        ],
+        "filter": {
+          "name": "loops",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'temperature_converter'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=temperature_converter",
+          "--package=temperature_converter"
+        ],
+        "filter": {
+          "name": "temperature_converter",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'temperature_converter'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=temperature_converter",
+          "--package=temperature_converter"
+        ],
+        "filter": {
+          "name": "temperature_converter",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'fibonacci'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=fibonacci",
+          "--package=fibonacci"
+        ],
+        "filter": {
+          "name": "fibonacci",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'fibonacci'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=fibonacci",
+          "--package=fibonacci"
+        ],
+        "filter": {
+          "name": "fibonacci",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'chrismas_carol_lyrics'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=chrismas_carol_lyrics",
+          "--package=chrismas_carol_lyrics"
+        ],
+        "filter": {
+          "name": "chrismas_carol_lyrics",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'chrismas_carol_lyrics'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=chrismas_carol_lyrics",
+          "--package=chrismas_carol_lyrics"
+        ],
+        "filter": {
+          "name": "chrismas_carol_lyrics",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
