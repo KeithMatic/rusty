@@ -1,6 +1,6 @@
 {
-  "editor.suggest.showSnippets": false,
   "rust-analyzer.linkedProjects": [
-    "./programs/chrismas_carol_lyrics/Cargo.toml"
+    "./conditionals/Cargo.toml",
+    "./conditionals/Cargo.toml"
   ]
 }
